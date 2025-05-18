@@ -1,3 +1,5 @@
+pip install plotly
+pip install -r requirements(1).txt
 
 import streamlit as st
 import pandas as pd
@@ -5,7 +7,7 @@ import plotly.express as px
 
 st.set_page_config(page_title="Análise de Vendedores", layout="wide")
 
-st.title("📦 Dashboard de Vendedores - Olist")
+st.title("Dashboard de Vendedores - Olist")
 
 # Carregar os dados
 @st.cache_data
@@ -36,4 +38,4 @@ fig3 = px.histogram(df, x="tempo_medio_entrega", nbins=30, title="Distribuição
 st.plotly_chart(fig3, use_container_width=True)
 
 st.markdown("---")
-st.caption("Dados da Olist - Projeto de Análise por [Seu Nome]")
+st.caption("Dados da Olist - Projeto de Análise por Mauricio Pinheiro")
