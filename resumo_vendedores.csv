@@ -1,0 +1,5 @@
+seller_id,volume_vendas,valor_total_vendas,satisfacao_media,tempo_entrega_medio
+seller_1,120,45000.0,4.7,5.2
+seller_2,85,32000.0,4.3,6.1
+seller_3,200,75000.0,4.8,4.7
+seller_4,65,21000.0,3.9,7.3
