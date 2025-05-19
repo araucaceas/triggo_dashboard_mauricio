@@ -1,1 +1,11 @@
 https://drive.google.com/file/d/1-EVul9TntgKPOA123VWFJl6NSgZ_X3aW/view?usp=drive_link
+
+    orders = baixar_e_carregar_csv("1-EVul9TntgKPOA123VWFJl6NSgZ_X3aW", "olist_orders_dataset.csv")
+    payments = baixar_e_carregar_csv("1YxuHVoOY_VxQq9V4Lqt9VWgAI1GP2OZr", "olist_order_payments_dataset.csv")
+    items = baixar_e_carregar_csv("1j9pZAmJ5s6GCe4WY8EcCyXxx4w-2jRCE", "olist_order_items_dataset.csv")
+    reviews = baixar_e_carregar_csv("1W9FzPK-u7ohUOLoS-RHi0XsUBD5xAwDj", "olist_order_reviews_dataset.csv")
+    customers = baixar_e_carregar_csv("1Kqtpp7Z4yU7rb8AUXHZxGi_7iD0sU8-q", "olist_customers_dataset.csv")
+    sellers = baixar_e_carregar_csv("1T9tfNFiLuWa4GV3w-DzS-5a1KMO4vkgN", "olist_sellers_dataset.csv")
+    products = baixar_e_carregar_csv("1ZQPrh7NwWcTy1ewrBCczvxzckYv4PuHX", "olist_products_dataset.csv")
+    geo = baixar_e_carregar_csv("1grhbfaN5Rcy8D5Zn3IG2uSCIP-0WUnZ2", "olist_geolocation_dataset.csv")
+    category = baixar_e_carregar_csv("1-A5dbKeikqErPE0kfe3iykF8MVaXwja9", "product_category_name_translation.csv")
